@@ -37,6 +37,15 @@ export default function Layout({ children }) {
         </h3>
       </Link>
       <Link
+        to={`/my-files/`}
+        css={css`
+          float: right;
+          margin-left: 10px;
+        `}
+      >
+        My Files
+      </Link>
+      <Link
         to={`/about/`}
         css={css`
           float: right;
